@@ -227,8 +227,11 @@
   //--------------------------------------------------------
   <questionDetail topic="Contributions">
     <question>
-      Notable Firsts:  Henry Flipper, a former slave, in 1877 became the first Black graduate from the U.S. Military Academy earning a commission as a second lieutenant and became the first non-White officer to lead Buffalo Soldiers in the 10th Cavalry.  &lt;br&gt;John Hanks Alexander, born to former slaves, was the second back graduate of the US Military Academy in 1887.  In 1889, he temporarily led the 9th Cavalry's B Troop, thus becoming the first Black officer in the Army to hold a command position.  &lt;br&gt;Charles Young, born into slavery, was the third Black graduate from the US Military Academy in 1889 and became the first Black national park superintendent during the summer of 1903 before being reassigned as a troop commander of the 10th Cavalry. &lt;br&gt;This leader became commander of Fort Huachuca,  Arizona, the base of the Tenth Cavalry and he was the first African American to achieve the rank of colonel in the US Army.  Who was he?
-    </question>
+      NotableFirsts --  Henry Flipper, a former slave, in 1877 became the first Black graduate from the U.S. Military Academy earning a commission as a second lieutenant and became the first non-White officer to lead Buffalo Soldiers in the 10th Cavalry.
+      &lt;br&gt;John Hanks Alexander, born to former slaves, was the second back graduate of the US Military Academy in 1887.  In 1889, he temporarily led the 9th Cavalry's B Troop, thus becoming the first Black officer in the Army to hold a command position.
+      &lt;br&gt;Charles Young, born into slavery, was the third Black graduate from the US Military Academy in 1889 and became the first Black national park superintendent during the summer of 1903 before being reassigned as a troop commander of the 10th Cavalry.
+      &lt;br&gt;&lt;br&gt;This leader became commander of Fort Huachuca, Arizona the base of the Tenth Cavalry and he was the first African American to achieve the rank of colonel in the US Army. Who was he?
+   </question>
     <answer correct="false">
       Henry Flipper
     </answer>
@@ -269,7 +272,8 @@
   //--------------------------------------------------------
 <questionDetail topic="Contributions">
   <question>
-    In May 1898, one month into the Spanish-American War, the U.S. Army Fifth Corps, with Theodore Roosevelts Rough Riders, landed in Cuba with the aim of marching to Santiago.  In the most integrated battle group of it’s time, the 9th and 10th Calvary and the 24th and 25th Infantry deployed with White regular army and volunteer regiments.  The success of the charge at the main Battle of San Juan Hill, along with success of a charge of nearby Kettle Hill and at the battle of El Caney led both to the defeat of the Spanish forces. The subsequent siege of the city led to the July 17 surrender of Santiago, ended the Spanish rule in Cuba. &lt;p&gt;The Buffalo Soldiers won high praise for their critical role in the success of battles at Santiago.  Theodore Roosevelt commented: “no one can tell whether it was the Rough Riders or the men of the 9th who came forward with the greater courage to offer their lives in the service of their country."  Which is true?
+    In May 1898, one month into the Spanish-American War, the U.S. Army Fifth Corps, with Theodore Roosevelts Rough Riders, landed in Cuba with the aim of marching to Santiago.  In the most integrated battle group of it’s time, the 9th and 10th Calvary and the 24th and 25th Infantry deployed with White regular army and volunteer regiments.  The success of the charge at the main Battle of San Juan Hill, along with success of a charge of nearby Kettle Hill and at the battle of El Caney led both to the defeat of the Spanish forces. The subsequent siege of the city led to the July 17 surrender of Santiago, ended the Spanish rule in Cuba.
+    &lt;br&gt;&lt;br&gt;The Buffalo Soldiers won high praise for their critical role in the success of battles at Santiago.  Theodore Roosevelt commented: “no one can tell whether it was the Rough Riders or the men of the 9th who came forward with the greater courage to offer their lives in the service of their country."  Which is true?
   </question>
   <answer correct="false">
     Roosevelt continued to praise the “heroism and dedication to their duties” of the Buffalo Soldiers that was crucial to the success of that mission
@@ -287,7 +291,7 @@
     none of the above
   </answer>
   <explanation>
-    The correct answer is e.  &lt;br&gt;Subsequently Roosevelt made disparaging statements about the Buffalo Soldiers.  While the Buffalo Soldiers were highly praised for there performance in the battles that didn’t persist and were often relegated to support roles in future engagements.  Ih the battle the American’s suffer twice as many casualties at the Spaniards.
+    The correct answer is e. &lt;br&gt;Subsequently Roosevelt made disparaging statements about the Buffalo Soldiers.  While the Buffalo Soldiers were highly praised for there performance in the battles that didn’t persist and were often relegated to support roles in future engagements.  In the battle the American’s suffer twice as many casualties at the Spaniards.
   </explanation>
 </questionDetail>
 //--------------------------------------------------------
@@ -302,7 +306,7 @@
     the 25th Infantry regiment was inactivated at Camp Stoneman, California in 1946
   </answer>
   <answer correct="false">
-    the  end of segregation in the US Army began July 26, 1948, when President Harry S. Truman issued Executive Order 9981 declaring that "there shall be equality of treatment and opportunity for all persons in the armed services without regard to race, color, religion, or national origin."
+    the end of segregation in the US Army began July 26, 1948, when President Harry S. Truman issued Executive Order 9981 declaring that "there shall be equality of treatment and opportunity for all persons in the armed services without regard to race, color, religion, or national origin."
   </answer>
   <answer correct="true">
     all of the above
