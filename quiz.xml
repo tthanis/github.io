@@ -104,7 +104,7 @@
   //--------------------------------------------------------
   <questionDetail topic="Culture">
     <question>
-      In popular culture, movies can provide awareness to untold or under-told events in history.  Which of these does not tell a story depicting bravery in action of the fighting men associated as Buffalo Soldiers?
+      In popular culture, movies can provide awareness to untold or under-told events in history.  Which of these does &lt;b&gt;notlt;/b&gt; tell a story depicting bravery in action of the fighting men associated as Buffalo Soldiers?
     </question>
     <answer correct="true">
       “Glory” with Denzel Washington in a Black regiment culminating in the famed assault on Ft. Wagner
@@ -113,7 +113,7 @@
       “Miracle at St. Anna” the Spike Lee movie tells the story of four Black soldiers who get trapped in a Italian village in Nazi occupied territory
     </answer>
     <answer correct="false">
-      “Red Ball Express” chronicles the bravery of the men who ran supplies lines from the Allied breakout at Normandy running nearly 6,000 trucks at it’s peak in a continuous convoy for nearly 3 months
+      “Red Ball Express” chronicles the bravery of the men who ran supply lines from the Allied breakout at Normandy running nearly 6,000 trucks at it’s peak in a continuous convoy for nearly 3 months
     </answer>
     <answer correct="false">
       “Buffalo Soldiers”  based on true events about the Black Cavalry troop charged with protecting the Western territories following the Civil War
