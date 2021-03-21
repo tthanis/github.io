@@ -184,7 +184,7 @@
       }
       document.getElementById("correctAnswer").innerHTML = "";
       // Show question number
-      document.getElementById("qNum").innerHTML = currentQ + 1
+      document.getElementById("qNum").innerHTML = currentQ + 1 +" of " + questionCount;
       // Get question
       document.getElementById("question").innerHTML =
         questionList[currentQ].childNodes[1].childNodes[0].nodeValue;
