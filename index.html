@@ -35,6 +35,14 @@
       width: 80%;
     }
 
+    .quote {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      font-size: 110%;
+      font-style: italic;
+    }
+
     .centerImg {
       display: block;
       margin-left: auto;
@@ -94,25 +102,30 @@
   <div id="questionsPage">
     <div class="lo1" id="descript"></div>
     <p>
-    <div class="hi2">
-      Question <span id="qNum"></span>
-    </div>
-    <br>
-    <div>
-      <span id="question"></span>
-      <br>
-      <div class="ans">
-        <span id="answers"></span>
+    <div id="qanda">
+      <div class="hi2">
+        Question <span id="qNum"></span>
       </div>
-    </div>
+      <br>
+      <div>
+        <span id="question"></span>
+        <br>
+        <div class="ans">
+          <span id="answers"></span>
+        </div>
+      </div>
 
-    <button id="showA" class="button button1" onclick="showAnswer()">Show Answer</button>
-    <button id="nextQ" class="button button2" onclick="nextQuestion()">Next Question</button>
-    <br>
-    <div class="hi1" id="correctAnswer"></div>
+      <button id="showA" class="button button1" onclick="showAnswer()">Show Answer</button>
+      <button id="nextQ" class="button button2" onclick="nextQuestion()">Next Question</button>
+      <br>
+      <div class="hi1" id="correctAnswer"></div>
+    </div>
     <div id="memorial2">
-      <img src="memorial2.png" alt="Memorial" class="centerImg2" width="450" onclick="playAudio()">
-      <center>The Buffalo Soldier Monument in Fort Leavenworth, Kansas was dedicated on July 25, 1992 by General Colin L. Powell <br>(click the image to hear the dedication)</center>
+      <img src="memorial2.png" alt="Memorial" class="centerImg2" height="350" onclick="playAudio()">
+      <center>The Buffalo Soldier Monument in Fort Leavenworth, Kansas was dedicated on July 25, 1992 by General Colin L. Powell</center>
+      <div id="memorialText" class="quote">
+        <center>(click the image to hear the dedication)</center>
+      </div>
     </div>
 
   </div>
@@ -163,6 +176,9 @@
     }
 
     function playAudio() {
+      document.getElementById("qanda").innerHTML = "";
+      document.getElementById("memorialText").innerHTML =
+        xmlDoc.getElementsByTagName("powellDedication")[0].childNodes[0].nodeValue;
       if (audioToggle == 1) {
         audio.play();
         audioToggle = 0;
@@ -177,14 +193,14 @@
       // Increment the question number and clear the answer from previous question
       currentQ = currentQ + 1;
       // If this is the last question change the button behavior
-      if (currentQ+1 == questionCount) {
+      if (currentQ + 1 == questionCount) {
         document.getElementById("nextQ").style.visibility = "hidden";
         document.getElementById("memorial2").style.visibility = "visible";
         document.getElementById("nextQ").innerHTML = "";
       }
       document.getElementById("correctAnswer").innerHTML = "";
       // Show question number
-      document.getElementById("qNum").innerHTML = currentQ + 1 +" of " + questionCount;
+      document.getElementById("qNum").innerHTML = currentQ + 1 + " of " + questionCount;
       // Get question
       document.getElementById("question").innerHTML =
         questionList[currentQ].childNodes[1].childNodes[0].nodeValue;
