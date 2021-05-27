@@ -83,7 +83,7 @@
 
 <body>
 
-  <h2>Buffalo Soldiers History Quiz</h2>
+  <h2 id="shortTitle">Buffalo Soldiers History Quiz</h2>
   <p>
 
   <div id="introPage">
@@ -91,6 +91,9 @@
       <tr>
         <td>
           <div class="lo1" id="descript"></div>
+          <div class="lo1" id="references">
+            References can be found <a href="references.html">here.</a>
+          </div>
         </td>
         <td><img src="memorial.jpg" alt="Buffalo Soldiers Memorial" width="400"></td>
       </tr>
@@ -140,11 +143,14 @@
       xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
     // sets and sends the request for calling "node.xml"
-    //xmlhttp.open("GET", "quiz.xml", false);
     xmlhttp.open("GET", "quiz.xml", false);
     xmlhttp.send();
     // sets and returns the content as XML DOM
     xmlDoc = xmlhttp.responseXML;
+
+    // Get the quiz short title
+    document.getElementById("shortTitle").innerHTML =
+      xmlDoc.getElementsByTagName("shortName")[0].childNodes[0].nodeValue;
 
     // Get the quiz description for the intro information
     document.getElementById("descript").innerHTML =
