@@ -92,11 +92,11 @@
         <td>
           <div class="lo1" id="descript"></div>
         </td>
-        <td><img src="bsmc.jpg" alt="Buffalo Soldiers Memorial" width="300"></td>
+        <td><img src="images/bsmc.jpg" alt="Buffalo Soldiers Memorial" width="300"></td>
       </tr>
     </table>
     <br>
-    <img src="LetsStart.png" alt="Start the Quiz" class="centerImg" width="150" onclick="startQuiz()">
+    <img src="images/LetsStart.png" alt="Start the Quiz" class="centerImg" width="150" onclick="startQuiz()">
   </div>
 
   <div id="questionsPage">
@@ -121,7 +121,7 @@
       <div class="hi1" id="correctAnswer"></div>
     </div>
     <div id="memorial2">
-      <img src="memorial2.png" alt="Memorial" class="centerImg2" height="350" onclick="playAudio()">
+      <img src="images/memorial2.png" alt="Memorial" class="centerImg2" height="350" onclick="playAudio()">
       <center>The Buffalo Soldier Monument in Fort Leavenworth, Kansas was dedicated on July 25, 1992 by General Colin L. Powell</center>
       <div id="memorialText" class="quote">
         <center>(click the image to hear the dedication)</center>
@@ -141,7 +141,7 @@
     }
     // sets and sends the request for calling "node.xml"
     //xmlhttp.open("GET", "quiz.xml", false);
-    xmlhttp.open("GET", "quiz-bsmc.xml", false);
+    xmlhttp.open("GET", "quiz-data/quiz-bsmc.xml", false);
     xmlhttp.send();
     // sets and returns the content as XML DOM
     xmlDoc = xmlhttp.responseXML;
@@ -167,7 +167,7 @@
     // Global vars
     currentQ = -1;
     alpha = "abcdefghijk";
-    var audio = new Audio('audio_file.mp3');
+    var audio = new Audio('audio/audio_file.mp3');
     audioToggle = 1;
 
     // Function to start the Quiz
