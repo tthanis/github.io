@@ -299,7 +299,7 @@
       the Buffalo Soldiers were posted to the US southeast for the first time
     </answer>
     <answer correct="false">
-      the Buffalo Soldiers temporarily became a desegregated fighting force when white-enlistee Companies were assigned to their Regiments
+      the Buffalo Soldiers temporarily became a desegregated fighting force when white-enlistee Companies were assigned to their regiments
     </answer>
     <answer correct="false">
       the Buffalo Soldiers learned needed basic naval skills in a brief rotation at the Naval Academy in Annapolis
@@ -421,21 +421,46 @@
       The Calvary regiments were trained and deployed as motorized infantry
     </answer>
     <answer correct="true">
-      While black recruits were enlisted and sent to fight, the Buffalo Soldiers never saw action in the war
+      While black recruits were enlisted and sent to fight, the Buffalo Soldiers Calvary regiments never saw action in the war
     </answer>
     <answer correct="false">
-      The Buffalo Soliders were deployed to France and operated under French command
+      The Buffalo Soliders Calvary regiments were deployed to France and operated under French command
     </answer>
     <explanation>
       The correct answer is c.
     </explanation>
   </questionDetail>
   //--------------------------------------------------------
+  <questionDetail topic="Contributions">
+    <question>
+      In 1917 the 92nd and 93rd Infantry Divisions were created to support the effort figthing in World War I.
+      These were "colored" divisions with new recruits and mostly untested officers sent to war while the combat
+      proven Buffalo Soliders of the 9th,10th, 24th and 25th were sidelined.
+      &lt;br&gt;&lt;br&gt;Which is true?
+    </question>
+    <answer correct="false">
+      Both the 92nd and 93rd Infanty Divisions fought under French command in WW-I
+    </answer>
+    <answer correct="false">
+      The 92nd division assumed the nickname "Buffalo Soldiers" while the 93rd bacame known as "The Blue Helmets"
+    </answer>
+    <answer correct="false">
+      In WW-II the 93rd was deployed to the Pacific Theater while the 92nd fought in Europe with the Fifth Army
+    </answer>
+    <answer correct="true">
+      all of the above
+    </answer>
+    <explanation>
+      The correct answer is d.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
   <questionDetail topic="Deactivation">
     <question>
-      After WW I the Regular Army, including the Buffalo Soldier regiments, were under strength. In the beginning of WW II the War Department determined that a shortage of personnel for service and supply operations behind battle lines should be alleviated
-      by converting combat-trained Black soldiers to support roles. In both world wars more Black volunteers saw action than combat-trained Black troops. In March 1944, the 2nd Cavalry Division which now included the 9th and 10th Calvary arrived in North
-      Africa. While there the entire Division was inactivated and converted to service units thus bringing the 85 year history of the Buffalo Soldiers Calvary regiments to an end.
+      In the beginning of WW II the War Department determined that a shortage of personnel for service and supply operations behind battle lines should be alleviated
+      by converting combat-trained Black soldiers to support roles. In both world wars more Black volunteers saw action than combat-trained Black troops. In March 1944,
+      the 2nd Cavalry Division which now included the 9th and 10th Calvary arrived in North Africa. While there the entire Division was inactivated and converted to service
+      units thus bringing the 85 year history of the Buffalo Soldiers Calvary regiments to an end.
       &lt;br&gt;&lt;br&gt;Which is true?
     </question>
     <answer correct="false">
