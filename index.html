@@ -2,13 +2,12 @@
 <html>
 
 <head>
-  <title>Buffalo Soliders Quiz</title>
-  <style>
-    .ans {
-      color: #2F4F4F;
-      margin: 20px;
-    }
+  <meta http-Equiv="Cache-Control" Content="no-cache" />
+  <meta http-Equiv="Pragma" Content="no-cache" />
+  <meta http-Equiv="Expires" Content="0" />
+  <title>Buffalo Soliders Histories</title>
 
+  <style>
     .hi2 {
       color: black;
       //font-family:verdana;
@@ -16,23 +15,17 @@
       font-weight: bold;
     }
 
-    .hi1 {
-      color: black;
-      //font-family:verdana;
-      font-size: 105%;
-      margin: 10px;
+    .leftNav {
+      background-color: #F1F1F1;
     }
 
     .lo1 {
       color: black;
-      margin: 10px;
-      //margin-right:10%;
+      margin-left: 15px;
     }
 
     .center {
-      margin-left: auto;
-      margin-right: auto;
-      width: 90%;
+      width: 100%;
     }
 
     .quote {
@@ -45,193 +38,88 @@
 
     .centerImg {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 50px;
+      align: center;
+      width: 60%;
     }
-
-    .centerImg2 {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .button {
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
-    .button1 {
-      background-color: #6B8E23;
-    }
-
-    /* Green */
-    .button2 {
-      background-color: #8B4513;
-    }
-
-    /* Blue */
   </style>
 </head>
 
 <body>
 
-  <h2 id="shortTitle">Buffalo Soldiers History Quiz</h2>
-  <p>
-
-  <div id="introPage">
+  <h2 id="shortTitle">Buffalo Soldiers History</h2>
+  <div id="mainPage">
     <table class="center">
       <tr>
-        <td>
-          <div class="lo1" id="descript"></div>
-          <div class="lo1" id="references">
-            References can be found <a href="references.html">here.</a>
+        <td width=25% valign="top" align="left" padding="0">
+          <div id="leftNav" class="leftNav">
+            <br>
+            <div class="hi2">Buffalo Soldiers</div>
+            <div class="lo1">
+              Want to test your knowledge of the history of the Buffalo Soliders? Here's a 21 question quiz
+              that may help sharpen your knowledge.
+              <br><img src="images/TakeTheQuiz.png" alt="Take the Quiz" class="centerImg" onclick="takeBSQuiz()">
+            </div>
+            <p>
+            <div class="hi2">Buffalo Soldiers Motorcycle Club</div>
+            <div class="lo1">
+              How much do you know about the Buffalo Soldiers Motorcycle Club? Use this short 10 question quiz to
+              show off your MC knowledge.
+              <br><img src="images/TakeTheQuiz.png" alt="Take the Quiz" class="centerImg" onclick="takeBSMCQuiz()">
+            </div>
+            <p>
+            <div class="hi2">Raleigh Chapter</div>
+            <div class="lo1">
+              Want to learn about the history of the Raleigh chapter of the Buffalo Soldiers Motorcycle Club? The
+              following three page article tells the story.
+              <br><img src="images/ReadTheStory.png" alt="Read the Story" class="centerImg" onclick="readRaleighStory()">
+              Or download it <a href="chapter-history/Chapter History.pdf" download>here</a>.
+              <br>
+            </div>
+            <p>
           </div>
         </td>
-        <td><img src="images/memorial.jpg" alt="Buffalo Soldiers Memorial" width="400"></td>
+        <td width=75% align="center">
+          <div id="mainContent" width="100%">
+            <iframe id="content" style="width:100%; border: 0" src="imagePage.html"></iframe>
+          </div>
+        </td>
       </tr>
     </table>
-    <br>
-    <img src="images/LetsStart.png" alt="Start the Quiz" class="centerImg" width="150" onclick="startQuiz()">
-  </div>
-
-  <div id="questionsPage">
-    <div class="lo1" id="descript"></div>
-    <p>
-    <div id="qanda">
-      <div class="hi2">
-        Question <span id="qNum"></span>
-      </div>
-      <br>
-      <div>
-        <span id="question"></span>
-        <br>
-        <div class="ans">
-          <span id="answers"></span>
-        </div>
-      </div>
-
-      <button id="showA" class="button button1" onclick="showAnswer()">Show Answer</button>
-      <button id="nextQ" class="button button2" onclick="nextQuestion()">Next Question</button>
-      <br>
-      <div class="hi1" id="correctAnswer"></div>
-    </div>
-    <div id="memorial2">
-      <img src="images/memorial2.png" alt="Memorial" class="centerImg2" height="350" onclick="playAudio()">
-      <center>The Buffalo Soldier Monument in Fort Leavenworth, Kansas was dedicated on July 25, 1992 by General Colin L. Powell</center>
-      <div id="memorialText" class="quote">
-        <center>(click the image to hear the dedication)</center>
-      </div>
-    </div>
-
   </div>
 
   <script>
-    // Read XML and get XMLdoc object
-    // If browser supports XMLHttpRequest
-    if (window.XMLHttpRequest) { // Create an instance of XMLHttpRequest object.
-      //code for IE7+, Firefox, Chrome, Opera, Safari
-      xmlhttp = new XMLHttpRequest();
-    } else { // code for IE6, IE5
-      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    // sets and sends the request for calling "node.xml"
-    xmlhttp.open("GET", "quiz-data/quiz-1.1.xml", false);
-    xmlhttp.send();
-    // sets and returns the content as XML DOM
-    xmlDoc = xmlhttp.responseXML;
+    // Selecting the iframe element
+    var frame = document.getElementById("content");
 
-    // Get the quiz short title
-    document.getElementById("shortTitle").innerHTML =
-      xmlDoc.getElementsByTagName("shortName")[0].childNodes[0].nodeValue;
-
-    // Get the quiz description for the intro information
-    document.getElementById("descript").innerHTML =
-      xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
-
-    // Get the list of questions and question count
-    questionList = xmlDoc.getElementsByTagName("questionDetail");
-    // Question count
-    questionCount = questionList.length;
-    // Get the span object for the answers
-    answersDOM = document.getElementById("answers");
-
-    // Hide the questions page
-    document.getElementById("questionsPage").style.visibility = "hidden";
-
-    // Global vars
-    currentQ = -1;
-    alpha = "abcdefghijk";
-    var audio = new Audio('audio/audio_file.mp3');
-    audioToggle = 1;
-
-    // Function to start the Quiz
-    function startQuiz() {
-      // Clear the intro intro page and make questions page visible
-      document.getElementById("introPage").innerHTML = "";
-      document.getElementById("questionsPage").style.visibility = "visible";
-      document.getElementById("memorial2").style.visibility = "hidden";
-      nextQuestion();
+    // Adjusting the iframe height onload event
+    frame.onload = function()  {
+      //frame.style.width = frame.contentWindow.document.body.scrollWidth + 'px';
+      //frame.style.height = frame.contentWindow.document.body.scrollHeight;
+      var win = window,
+      doc = document,
+      docElem = doc.documentElement,
+      body = doc.getElementsByTagName('body')[0],
+      x = win.innerWidth || docElem.clientWidth || body.clientWidth,
+      y = win.innerHeight|| docElem.clientHeight|| body.clientHeight;
+      frame.style.height = y + 'px';
+      //frame.style.width = x + 'px';
+      //alert (frame.style.width+" x "+frame.style.height);
     }
 
-    function playAudio() {
-      document.getElementById("qanda").innerHTML = "";
-      document.getElementById("memorialText").innerHTML =
-        xmlDoc.getElementsByTagName("powellDedication")[0].childNodes[0].nodeValue;
-      if (audioToggle == 1) {
-        audio.play();
-        audioToggle = 0;
-      } else {
-        audio.pause();
-        audioToggle = 1;
-      }
+    // Take the Buffalo Soldiers Quiz
+    function takeBSQuiz() {
+      document.getElementById("content").src = "bs-quiz.html";
     }
-
-    // Iterate through the questions
-    function nextQuestion() {
-      // Increment the question number and clear the answer from previous question
-      currentQ = currentQ + 1;
-      // If this is the last question change the button behavior
-      if (currentQ + 1 == questionCount) {
-        document.getElementById("nextQ").style.visibility = "hidden";
-        document.getElementById("memorial2").style.visibility = "visible";
-        document.getElementById("nextQ").innerHTML = "";
-      }
-      document.getElementById("correctAnswer").innerHTML = "";
-      // Show question number
-      document.getElementById("qNum").innerHTML = currentQ + 1 + " of " + questionCount;
-      // Get question
-      document.getElementById("question").innerHTML =
-        questionList[currentQ].childNodes[1].childNodes[0].nodeValue;
-      // Get the answer choices
-      answerList = questionList[currentQ].children;
-      answerCount = answerList.length - 2; // one child is the question and one is the explanation
-      // answers
-      answerListStr = "";
-      for (i = 0; i < answerCount; i++) {
-        var answerObj = answerList.item(i + 1);
-        answerListStr += alpha[i] + ".  " + answerObj.childNodes[0].nodeValue + "<br>";
-      }
-      //answersDOM = document.getElementById("answers");
-      answersDOM.innerHTML = answerListStr;
+    // Take the Buffalo Soldiers Motorcycle Club Quiz
+    function takeBSMCQuiz() {
+      document.getElementById("content").src = "bsmc-quiz.html";
     }
-
-    // Function to show the correct answers
-    function showAnswer() {
-      // Show the correct answer (last object in the list of answers)
-      var correctAnsObj = answerList.item(answerCount + 1);
-      var correctAnsStr = correctAnsObj.childNodes[0].nodeValue;
-      document.getElementById("correctAnswer").innerHTML = correctAnsStr;
+    // Read the Raleigh Chapter story Buffalo Soldiers Story
+    function readRaleighStory() {
+      //document.getElementById("content").src = "Chapter History/Chapter History.pdf#view=fit";
+      document.getElementById("content").src = "raleighPage.html";
     }
   </script>
-
 </body>
 
 </html>
