@@ -20,7 +20,9 @@
     }
 
     .lo1 {
-      color: black;
+      font-family:verdana;
+      font-size: 80%;
+      font-style: italic;
       margin-left: 15px;
     }
 
@@ -76,6 +78,14 @@
               <br>
             </div>
             <p>
+            <div class="hi2">History in Brief</div>
+            <div class="lo1">
+              A short 5-minute brief that gives an overview of the history of
+              the Buffalo Soldiers in a dialog format.
+              <br><img src="images/ShowTheBrief.png" alt="Show the Brief" class="centerImg" onclick="showBrief()">
+              <br>
+            </div>
+            <p>
           </div>
         </td>
         <td width=75% align="center">
@@ -118,6 +128,10 @@
     function readRaleighStory() {
       //document.getElementById("content").src = "Chapter History/Chapter History.pdf#view=fit";
       document.getElementById("content").src = "raleighPage.html";
+    }
+    // Show the short hisory brief
+    function showBrief() {
+      document.getElementById("content").src = "showBrief.html";
     }
   </script>
 </body>
