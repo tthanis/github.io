@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-Equiv="Cache-Control" Content="no-cache" />
+  <meta http-Equiv="Pragma" Content="no-cache" />
+  <meta http-Equiv="Expires" Content="0" />
+  <title>Buffalo Soliders Histories</title>
+
+  <style>
+    .hi2 {
+      color: black;
+      //font-family:verdana;
+      font-size: 115%;
+      font-weight: bold;
+    }
+
+    .leftNav {
+      background-color: #F1F1F1;
+    }
+
+    .lo1 {
+      font-family:verdana;
+      font-size: 80%;
+      font-style: italic;
+      margin-left: 15px;
+    }
+
+    .center {
+      width: 100%;
+    }
+
+    .quote {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      font-size: 110%;
+      font-style: italic;
+    }
+
+    .centerImg {
+      display: block;
+      align: center;
+      width: 60%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2 id="shortTitle">Buffalo Soldiers History</h2>
+  <div id="mainPage">
+    <table class="center">
+      <tr>
+        <td width=25% valign="top" align="left" padding="0">
+          <div id="leftNav" class="leftNav">
+            <br>
+            <div class="hi2">Buffalo Soldiers</div>
+            <div class="lo1">
+              Want to test your knowledge of the history of the Buffalo Soliders? Here's a 21 question quiz
+              that may help sharpen your knowledge.
+              <br><img src="images/TakeTheQuiz.png" alt="Take the Quiz" class="centerImg" onclick="takeBSQuiz()">
+            </div>
+            <p>
+            <div class="hi2">Buffalo Soldiers Motorcycle Club</div>
+            <div class="lo1">
+              How much do you know about the Buffalo Soldiers Motorcycle Club? Use this short 10 question quiz to
+              show off your MC knowledge.
+              <br><img src="images/TakeTheQuiz.png" alt="Take the Quiz" class="centerImg" onclick="takeBSMCQuiz()">
+            </div>
+            <p>
+            <div class="hi2">Raleigh Chapter</div>
+            <div class="lo1">
+              Want to learn about the history of the Raleigh chapter of the Buffalo Soldiers Motorcycle Club? The
+              following three page article tells the story.
+              <br><img src="images/ReadTheStory.png" alt="Read the Story" class="centerImg" onclick="readRaleighStory()">
+              Or download it <a href="chapter-history/Chapter History.pdf" download>here</a>.
+              <br>
+            </div>
+            <p>
+            <div class="hi2">History in Brief</div>
+            <div class="lo1">
+              A short 5-minute brief that gives an overview of the history of
+              the Buffalo Soldiers in a dialog format.
+              <br><img src="images/showTheBrief.png" alt="Show the Brief" class="centerImg" onclick="showBrief()">
+              <br>
+            </div>
+            <p>
+          </div>
+        </td>
+        <td width=75% align="center">
+          <div id="mainContent" width="100%">
+            <iframe id="content" style="width:100%; border: 0" src="imagePage.html"></iframe>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <script>
+    // Selecting the iframe element
+    var frame = document.getElementById("content");
+
+    // Adjusting the iframe height onload event
+    frame.onload = function()  {
+      //frame.style.width = frame.contentWindow.document.body.scrollWidth + 'px';
+      //frame.style.height = frame.contentWindow.document.body.scrollHeight;
+      var win = window,
+      doc = document,
+      docElem = doc.documentElement,
+      body = doc.getElementsByTagName('body')[0],
+      x = win.innerWidth || docElem.clientWidth || body.clientWidth,
+      y = win.innerHeight|| docElem.clientHeight|| body.clientHeight;
+      frame.style.height = y + 'px';
+      //frame.style.width = x + 'px';
+      //alert (frame.style.width+" x "+frame.style.height);
+    }
+
+    // Take the Buffalo Soldiers Quiz
+    function takeBSQuiz() {
+      document.getElementById("content").src = "bs-quiz.html";
+    }
+    // Take the Buffalo Soldiers Motorcycle Club Quiz
+    function takeBSMCQuiz() {
+      document.getElementById("content").src = "bsmc-quiz.html";
+    }
+    // Read the Raleigh Chapter story Buffalo Soldiers Story
+    function readRaleighStory() {
+      //document.getElementById("content").src = "Chapter History/Chapter History.pdf#view=fit";
+      document.getElementById("content").src = "raleighPage.html";
+    }
+    // Show the short hisory brief
+    function showBrief() {
+      document.getElementById("content").src = "showBrief.html";
+    }
+  </script>
+</body>
+
+</html>
