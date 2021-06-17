@@ -1,0 +1,284 @@
+<buffaloSoldiers>
+  <quizContext>
+    <fullName>Buffalo Soldiers Motorcycle Club History - Test Your Knowledge</fullName>
+    <shortName>Buffalo Soldiers Motorcycle Club Quiz</shortName>
+    <description>This Buffalo Soldiers Motorcycle Club Quiz has been designed to both inform and to test your knowledge of the history of the Buffalo Soldiers Motorcycle Club.  The quiz touches on
+      the originally founding to the current day highlighting some points during it's formation, mission and accomplishments.  Any references to club statistics, like number of chapters etc, are
+      correct at the time of the writing but of course may change.
+    </description>
+    <powellDedication>
+    </powellDedication>
+    <version>1.0</version>
+  </quizContext>
+
+  //--------------------------------------------------------
+  <questionDetail topic="Formation">
+    <question>
+      The Buffalo Soliders motorcycle club was initially established by Kenneth 'Dream Maker' Thomas in Chicago in October 1993 after he left the "Buffalo Soldier Motorcycle Club".
+      He formed a new motorcycle club and initially named it:
+    </question>
+    <answer correct="false">
+      Buffalo Soldiers Motorcycle Club of Chicago
+    </answer>
+    <answer correct="true">
+      Buffalo Troopers Motorcycle Club of Chicago
+    </answer>
+    <answer correct="false">
+      National Association of Buffalo Soldiers and Troopers Motorcycle Club
+    </answer>
+    <explanation>
+      The correct answer is a. &lt;br&gt;After the initial formation of the club the name was changed to the
+      "Buffalo Troopers Motorcycle Club of Chicago" in order to avoid confustion with the previously existing club.  Then in 1999
+      the "National Association of Buffalo Soldiers and Troopers Motorcycle Club" was formed with the Chicago chapter identified as the mother chapter.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Formation">
+    <question>
+      In August of 1994, Brian Bulow of Maryland met Dream Maker, President of what was then called the "Buffalo Troopers of Chicago" and formed a new chapter with
+      the name "Buffalo Soldiers Motorcycle Club of Southern Maryland" thus becoming the first chapter to use the name “Buffalo Soldiers”.   Since that start there are now
+      120 Buffalo Soldiers Motorcycle Club chapters in 34 states.  California has the most chapters with nine.
+      &lt;br&gt;&lt;br&gt;Two states have eight chapters each.  They are:
+    </question>
+    <answer correct="false">
+      Virginia and Alabama
+    </answer>
+    <answer correct="true">
+      Virginia and Florida
+    </answer>
+    <answer correct="false">
+      Texas and Florida
+    </answer>
+    <answer correct="false">
+      Virginia and Georgia
+    </answer>
+    <answer correct="false">
+      Alabama and Florida
+    </answer>
+    <explanation>
+      The correct answer is b.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Organization">
+    <question>
+      While the Buffalo Soliders Motorcycle Club was initially established in Chicago it quickly grew.  Today chapters across the country
+      are organized into five regions called Frontiers.  Which of these is not a Frontier?
+    </question>
+    <answer correct="false">
+      Northeast Frontier
+    </answer>
+    <answer correct="false">
+      Southeast Frontier
+    </answer>
+    <answer correct="false">
+      Great Lakes Frontier
+    </answer>
+    <answer correct="true">
+      Pacific Coast Frontier
+    </answer>
+    <answer correct="false">
+      Central Frontier
+    </answer>
+    <explanation>
+      The correct answer is d. &lt;br&gt;Chapters in the western portion of the US belong to the "Western Frontier"
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Organization">
+    <question>
+      The Buffalo Soldiers Motorcycle Club operates with a purpose and mission.  A set of
+      operating guidelines guide both national and chapter operations and policy - the IRS Compliance By Laws.
+      As the name suggests that bylaws are in place also to support the clubs charter as a Nonprofit ​Public ​Benefit ​Corporation
+      with IRS code 501(c)(3) designation.
+      &lt;br&gt;&lt;br&gt;In addtion the bylaws address the following except one.  Which is it?
+    </question>
+    <answer correct="false">
+      The organization of the club, selection of officers, and running meetings.
+    </answer>
+    <answer correct="false">
+      Chapter and member policy including rules for resolving conflicts and points of appeal
+    </answer>
+    <answer correct="false">
+      Selection of officers and the roles of the executive board and national council
+    </answer>
+    <answer correct="true">
+      Guidelines for community service and charitable giving
+    </answer>
+    <answer correct="false">
+      Fiscal reporting
+    </answer>
+    <answer correct="false">
+      All are correct
+    </answer>
+    <explanation>
+      The correct answer is d.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Mission">
+    <question>
+      The Southeast Frontier is comprised of 30 Chapters located across five states - Alabama, Florida, Georgia and North and South Carolina.
+      The Southeast Frontier is united in the belief that geographic distance will not stand in the way of great successes founded on
+      shared philosophy, history, and eagerness to serve in our communitites.  To support this the Frontier has defined seven core values. Four are
+      Transparency, Professionalism, Results Orientation, and Member Focus.
+      &lt;br&gt;&lt;br&gt;Which are the other three?
+    </question>
+    <answer correct="false">
+      Collaboration, Egotism, and Accountability
+    </answer>
+    <answer correct="false">
+      Participation, Accountability, Individualism
+    </answer>
+    <answer correct="false">
+      Participation, Individualism, and Collaboration
+    </answer>
+    <answer correct="true">
+      Collaboration, Participation, and Accountability
+    </answer>
+    <explanation>
+      The correct answer is d. &lt;br&gt;Egotism and Individualism are not traits consistent with the club's emphasis
+      on brotherhood, fellowship, and community.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Mission">
+    <question>
+      The Buffalo Soliders Motorcycle Club's mission is described in multiple ways. It is represented in mesasging from the national organization, in communication from the national president, and in our creed.
+      Which is not a described mission of the Buffalo Soldiers Motorcycle Club?
+    </question>
+    <answer correct="false">
+      Educate, serve, and ride
+    </answer>
+    <answer correct="false">
+      Educate the general public on the history of the 9th and 10th Calvary
+    </answer>
+    <answer correct="true">
+      Join the struggle to promote racial equality by egaging politically to support those with a progressive agenda.
+    </answer>
+    <answer correct="false">
+      Demonstrate respect
+    </answer>
+    <answer correct="false">
+      None.  All represent stated goals of the Buffalo Soldiers Motorcycle Club.
+    </answer>
+    <explanation>
+      The correct answer is c. &lt;br&gt;As a non-peofit organization it is "prohibited from directly or indirectly
+      participating in, or intervening in, any political campaign on behalf of (or in opposition to) any candidate for elective public office".
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Mission">
+    <question>
+      The Northeast Frontier summarizes the mission of the Buffalo Soldiers: &lt;i&gt;Our objective is to educate those that are unfamiliar with the racism,
+      sacrifices and hardships that the Buffalo Soldiers of the 9th and 10th U.S. Cavalries had to
+      endure. Our vision is to instill this knowledge into the minds and hearts of our youth of today
+      so that we can motivate them to become better citizens and leaders of tomorrow.&lt;/i&gt;
+      &lt;br&gt;&lt;br&gt;Which of these is not a descsribed focus area within those objectives:
+    </question>
+    <answer correct="false">
+      Promote good citizenship, establish love and fellowship among all citizens
+    </answer>
+    <answer correct="false">
+      Promote motorcycle riding safety
+    </answer>
+    <answer correct="true">
+      Promote an ego centric behavior when riding
+    </answer>
+    <answer correct="false">
+      Be role models to our community
+    </answer>
+    <explanation>
+      The correct answer is c.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Accomplishments">
+    <question>
+      In additonal to community service the Buffalo Soldiers help provide educational opportunities by awarding
+      Scholarships to students entering college.  This is a competitive selection with opportunities provided at
+      national, frontier, and chapter levels.  Which is true?
+    </question>
+    <answer correct="false">
+      The specification of scholarships and the criteria for selection are defined at the National level in the bylaws.
+    </answer>
+    <answer correct="true">
+      Chapters and Frontiers can determine their own scholarship application process and the criteria for selection
+    </answer>
+    <answer correct="false">
+      National requires Chapters to award yearly scholarships or risk sanctions potentially leading to probation
+    </answer>
+    <answer correct="false">
+      IRS 501(c)(3) rules prohibit minority status from being used as a selection criteria in the awarding of scholarships
+    </answer>
+    <explanation>
+      The correct answer is b.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Accomplishments">
+    <question>
+      Giving back to the community is a cornerstone of the Buffalo Soldiers.  These are community
+      projects organized by caring individuals at the chapter level.  Here is just a sampling of the
+      community outreach.
+      &lt;br&gt;Which is not a community project of the Buffalo Soldiers:
+    </question>
+    <answer correct="false">
+      In the &lt;b&gt;Northeast Frontier&lt;/b&gt; the Hampton Roads, VA chapter maintains active community outreach
+      having particiapted in many programs supporting local schools, nursing homes, hospitals and others.  They
+      sponsored the dedication of a flag pole at the Cuffeytown Historic Cemetery which interrs
+      the largest number of African American Union Civil War soldiers in any non-governmental and non-veteran organization cemetery in Virginia
+    </answer>
+    <answer correct="false">
+      In the &lt;b&gt;Southeast Frontier&lt;/b&gt; the Raleigh, NC chapter is in a year-long effort to provide resources and manpower to
+      help revitalize a cemetery dating back to the post civil war and largely providing place of burial
+      for African-Americans.
+    </answer>
+    <answer correct="false">
+      In the &lt;b&gt;Great Lakes Frontier&lt;/b&gt; the Michigan chapter worked hard on community service during the pandemic.
+      In 2020 chapter members volunteered over 160 hrs of combined community service ranging from food distribution to helping
+      with the Flint water crisis.
+    </answer>
+    <answer correct="false">
+      In the &lt;b&gt;Central Frontier&lt;/b&gt; the Clarksville, TN chapter is making an impack in their community by donating masks to teachers, providing
+      meals to those in need during Thanksgiving and Christmas and other activies supporting youth and highway cleanup projects.
+    </answer>
+    <answer correct="false">
+      In the &lt;b&gt;Western Frontier&lt;/b&gt; the South Bay, CA chapter has a philosophy of charitable giving as a regular practice.  As they describe on their web site
+      "South Bay Soldiers always ride with homeless care bags on their bikes. We give them out 365 days a year during our rides."
+    </answer>
+    <answer correct="true">
+      All are correct
+    </answer>
+    <explanation>
+      The correct answer is f. &lt;br&gt;All are examples of chapters giving back to their communities.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+  <questionDetail topic="Accomplishments">
+    <question>
+      While the mission of the Buffalo Soldiers includes a range of goals including educating, preserving history, community involvement, scholarships, providing postivie role models and much more, this is still a motorcycle club.
+      Riding is a fundamental to the group's existance.
+      &lt;br&gt;&lt;br&gt;Which is true about why we ride?
+    </question>
+    <answer correct="false">
+      To show the colors and represent the Buffalo Soldiers publically
+    </answer>
+    <answer correct="false">
+      Establish bonds with our fellow riding brothers and sisters
+    </answer>
+    <answer correct="false">
+      Fellowship with other bikers that we meet along the way
+    </answer>
+    <answer correct="false">
+      It's our passion
+    </answer>
+    <answer correct="true">
+      All of the above
+    </answer>
+    <explanation>
+      The correct answer is e.
+    </explanation>
+  </questionDetail>
+  //--------------------------------------------------------
+</buffaloSoldiers>
