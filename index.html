@@ -99,6 +99,7 @@
   </div>
 
   <script>
+
     // Selecting the iframe element
     var frame = document.getElementById("content");
 
@@ -132,7 +133,11 @@
     }
     // Show the short hisory brief
     function showBrief() {
-      document.getElementById("content").src = "briefPage.html";
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        window.location.href = "briefPage.html";
+      } else {
+        document.getElementById("content").src = "briefPage.html";
+      }
     }
   </script>
 </body>
