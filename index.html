@@ -100,6 +100,12 @@
 
   <script>
 
+    // Check for mobile device
+    var isMobile=false;
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      isMobile=true;
+    }
+
     // Selecting the iframe element
     var frame = document.getElementById("content");
 
@@ -128,17 +134,17 @@
     }
     // Read the Raleigh Chapter story Buffalo Soldiers Story
     function readRaleighStory() {
-      //document.getElementById("content").src = "Chapter History/Chapter History.pdf#view=fit";
-      document.getElementById("content").src = "raleighPage.html";
+      if (isMobile) {
+        window.location.href = "raleighPage.html";
+      } else {
+        document.getElementById("content").src = "raleighPage.html";
+      }
     }
     // Show the short hisory brief
     function showBrief() {
-      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        alert ("nobile");
-        alert (navigator.userAgent);
+      if (isMobile) {
         window.location.href = "briefPage.html";
       } else {
-        alert (navigator.userAgent);
         document.getElementById("content").src = "briefPage.html";
       }
     }
