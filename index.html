@@ -102,9 +102,10 @@
 
     // Check for mobile device
     var isMobile=false;
-    alert (navigator.userAgent);
+    alert (typeof screen.orientation);
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       isMobile=true;
+
     }
 
     function isMobile() {
